@@ -1,0 +1,149 @@
+/*Body Styling*/
+body {
+	font-family: 'Spartan', sans-serif;
+	color: #1E1E35;
+  background-color: #F2F2F2;
+}
+
+b {
+  font-weight: 600;
+}
+
+#container {
+	width: 60%;
+	margin: auto;
+}
+
+#logo{
+  height: 50px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header Styling*/
+header {
+  width: 100%;
+	margin: auto;
+  padding: 10px 0px;
+}
+
+.hero {
+  background-color: #121A49;
+}
+
+.clear { clear:both; }
+
+/*Text Styling*/
+h1 {
+	font-size: 250%;
+  font-weight: 300;
+}
+
+h2 {
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+h1, h2, h3 {
+	color: #222;
+  font-weight: 700;
+}
+
+.offsetTitles{
+  font-size: 180%;
+  font-weight: 300;
+}
+
+/*WhatsApp QR Code*/
+#qrcode{
+  max-width: 220px;
+  border-radius: 15px;
+}
+
+/*Image Styling*/
+img {
+	width: 100%;
+}
+
+/*Footer Styling*/
+footer {
+  position: bottom;
+  width: 60%;
+	margin: auto;
+  left: 0;
+  bottom: 0;
+  background: #1E1E35;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+footer span {
+  display: inline-block;
+  min-width: 230px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+footer span a {
+  text-decoration: none;
+  color: #64E5E0;
+  transition: all 0.2s ease-in;
+}
+footer span a:hover {
+  color: #4059FB;
+}
+
+/*Sizing Styling*/
+@media screen and (max-width: 875px) {
+  .text {
+  margin: auto;
+  max-width: 95%;
+  }
+
+  .offsetTitles{
+  font-size: 140%;
+  font-weight: 300;
+  }
+
+  #container {
+		width: 95%;	
+	}
+	
+  footer {
+  width: 95%;
+  }
+
+	h1 {
+		font-size: 195%;	
+	}
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    margin: 8px 2px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .mobhide {
+    display: none;
+  }
+
+  #divicw {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .mobShow {
+    display: none;
+  }
+
+  #smsButton{
+    display: none;
+  }
+}
